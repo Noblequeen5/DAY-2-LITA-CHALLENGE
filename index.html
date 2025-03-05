@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flag Project</title>
+</head>
+<body>
+    <style>
+        body{
+            align-items: center;
+            justify-content: center;
+            margin: 0 250px;
+            padding: 20px;
+        }
+       .flag{
+            background-color: red;
+           width: 900px;
+           height: 600px;
+           position: relative;
+           justify-content: center;
+           align-items: center;
+        }
+        .flag div{
+            background-color: rgb(9, 9, 110);
+            width: 900px;
+           height: 400px;
+           position: absolute;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .flag div div {
+            background-color: white;
+            width: 300px;
+            height: 300px;
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 50%;
+        }
+        .flag  p{
+            text-align: center;
+            font-size: 70px;
+            margin: 0;
+            padding: 10px;
+        }
+        .flag div div p{
+            font-size: 70px;
+            padding: 0 10px 10px 10px;
+            text-align: center;
+            margin: 10px;
+            border-radius: 50%;
+
+        }
+    </style>
+    
+        <div class="flag">
+            <p>The Flag</p>
+        <div>
+        <div>
+            <p>of <br>Laos</p>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
